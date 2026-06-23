@@ -8,9 +8,7 @@
 A password generator I built in Rust. I've been seeing Rust everywhere lately —
 in security tools, system utilities, even the Linux kernel — and wanted to
 actually try it instead of just reading about it. I'm also genuinely fascinated
-by how fast Rust is. No garbage collector, no runtime overhead, just raw speed
-with memory safety enforced at compile time. Building something useful felt like
-the best way to get started.
+by how fast Rust is. No garbage collector, just raw speed with memory safety enforced at compile time.
 
 ## What it does
 
