@@ -13,7 +13,7 @@ fn password_strength(len: usize) -> &'static str {
 fn read_usize(prompt: &str) -> usize {
     loop {
         println!("{}", prompt);
-        let mut input = String::new();
+        let mut input: String = String::new();
         io::stdin().read_line(&mut input).expect("Failed to read line");
         match input.trim().parse() {
             Ok(n) => return n,
